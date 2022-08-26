@@ -1,3 +1,5 @@
+##Code of MRJob library Hadoop streaming with Python for Frequent Pattern Mining
+
 Download this file and save it in the same folder as the code
 https://www.kaggle.com/rusiano/madrid-airbnb-data?select=listings_detailed.csv
 
