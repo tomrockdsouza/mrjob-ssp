@@ -52,7 +52,8 @@ if sys.argv[1]=='hadoop':
         check_call([hdfs_var,dfs_var,'-rm','-r','-f','/user/hduser/tmp'])
         check_call([hdfs_var,dfs_var,'-rm','-r','-f','/tmp'])
 else:
-    check_call([pvar,'MRJobWrapper.py',sys.argv[2],sys.argv[3],'-r','inline','dataset.csv',sys.argv[4]])
+    venv_path = os.path.dirname(sys.executable)
+    check_call([os.path.join(venv_path, pvar),'MRJobWrapper.py',sys.argv[2],sys.argv[3],'-r','inline','dataset.csv',sys.argv[4]])
 
 os.remove('varx.json')
 os.remove('dataset.csv')
