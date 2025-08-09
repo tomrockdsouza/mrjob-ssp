@@ -20,7 +20,7 @@ Before you start, make sure you have the following dependencies installed:
 
 Use the provided requirements file for assistance in setting up the required environment.
 
-### How to Run
+### How to Run ( Work only on python version <=3.11)
 
 To execute the code, use the following command:
 
